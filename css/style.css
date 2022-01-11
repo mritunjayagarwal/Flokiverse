@@ -1409,7 +1409,7 @@ a:focus, a:hover {
 .top-footer h3 {
   font-size: 16px;
   line-height: 1.5;
-  color: #fff;
+  color: #FFA600;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1767,6 +1767,10 @@ a:focus, a:hover {
   .navb{
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .q-head{
+    font-size: 20px;
   }
 
 }
