@@ -1492,6 +1492,7 @@ a:focus, a:hover {
   .page-404 h1 {
     font-size: 100px;
   }
+
 }
 
 /* cards */
@@ -1696,4 +1697,99 @@ a:focus, a:hover {
 
 #buy-tickets #buy-ticket-modal .btn:hover {
   background-color: #e0072f;
+}
+
+/* logo move */
+
+.logo-move{
+	margin-top: -30px;
+	position: relative;
+	animation: moveUp 10s infinite;
+	animation-delay: 2s;
+}
+
+@keyframes moveUp {
+    from{
+		top: 0px;
+	}
+	50%{
+		top: 20px;
+	}
+	to{
+		top: -20px;
+	}
+}
+
+/* logo */
+
+#logo{
+  width: 60px;
+  height: auto;
+  margin-top: -20px;
+}
+
+.navb{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.navbar-brand span{
+  font-size: 30px;
+  color: #fff
+}
+
+@media (max-width: 480px) {
+  .logo-move{
+    margin-top: 200px;
+  }
+
+  #background-video{
+    height: 120vh;
+  }
+
+  #black{
+    height: 120vh;
+  }
+
+  #black .container{
+    margin-top: -200px;
+  }
+
+  #logo{
+    width: 40px;
+    margin-top: -10px;
+  }
+
+  .navbar-brand span{
+    font-size: 20px;
+  }
+
+  .navb{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+}
+
+@media (max-width: 380px) {
+  .logo-move{
+    margin-top: 300px;
+  }
+
+  .home-para{
+    font-size: 15px;
+  }
+  
+  #background-video{
+    height: 150vh;
+  }
+
+  #black{
+    height: 150vh;
+  }
+
+  #black .container{
+    margin-top: -300px;
+  }
+
 }
