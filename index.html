@@ -323,7 +323,7 @@ Welcome Slider
 <!--
 Start About Section
 ==================================== -->
-<section class="fade section shapedividers_com-4124" id="about" style = "background: #FFA600;color: #fff;">
+<section class="section shapedividers_com-4124" id="about" style = "background: #FFA600;color: #fff;">
   <div class="container">
     <h1 style = "color: #4C63D8" class = "text-center mb-5 q-head"><img src = "./images/helmet1.png" style = "width: 80px;height: auto;margin-top: -20px"> What is FlokiVerse?</h1>
     <p class = "fade mb-5" style = "font-size: 20px;text-align: justify;color: #fff">Flokiverse is a Metaverse and Valhalla city is it’s capital. Valhalla City will have its beginning starting with the Genesis district – the most prestigious district in the whole city, situated by the sea coast. The next districts of Flokicity will represent native platforms and products of the Flokiverse token ecosystem: Flokarium (nautic partly immersed under water district), Flokiverse NFT district and others. Each, one of a kind. Flokiverse play to earn scholarships, online events and meetups, virtual 3D galleries with art created by users, property/pet/accessories all will be tradeable, you can earn NFTs by undertaking different challenges – that is what will take place in Flokiverse and as our virtual world will be a completely immersive world built on Unity3D and Unreal Engine. The game will be playable on Oculus Quest 2, PC and MAC using the native flokiverse token.
@@ -332,7 +332,7 @@ Start About Section
 </section>   <!-- End section -->
 
 
-<section class="fade services-section spad my-5" style = "background: #fff">
+<section class="services-section spad my-5" style = "background: #fff">
   <div class="container">
     <h2 class = "text-center">Tokenomics</h2>
     <div class="pricing-area">
@@ -571,30 +571,6 @@ $('.navigation').css('background','#121212');
 } else {
 $('.navigation').css('background','transparent');
 }
-});
-
-$(document).ready(function() {
-    
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-    
-        /* Check the location of each desired element */
-        $('.fade').each( function(i){
-            
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
-                
-                $(this).animate({'opacity':'1'},300);
-                    
-            }
-            
-        }); 
-    
-    });
-    
 });
 </script>
 </body>
