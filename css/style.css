@@ -4,6 +4,10 @@
   src: url('../plugins/dalek/Dalek.ttf');
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   line-height: 1.4;
   font-family: dalek;
